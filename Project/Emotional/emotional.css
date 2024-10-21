@@ -1,0 +1,122 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: white;
+    color: #4a90e2;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 60px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3{
+    color: #4a90e2;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Visuals Section */
+.visuals-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.visuals-section img {
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Technologies Section */
+.technologies-section {
+    background-color: #f9f9f9;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.tech-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tech-card h3 {
+    color: #4a90e2;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Conclusion Section */
+.conclusion-section {
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
