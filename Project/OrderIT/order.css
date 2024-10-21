@@ -1,0 +1,270 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #ff7043, #ffcc80);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+    margin-bottom: 40px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: white;
+    color: #ff7043;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff7043;
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 60px;
+    margin-bottom: 40px;
+    background-color: white;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Highlight Box */
+.highlight-box {
+    background-color: #fff8e1;
+    padding: 20px;
+    border-left: 5px solid #ff7043;
+    margin-bottom: 30px;
+}
+
+/* Ethnography Section */
+.ethnography-process {
+    margin-bottom: 40px;
+}
+
+.ethnography-process h3 {
+    font-size: 1.8rem;
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+
+.ethnography-process p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Visuals Section */
+.visuals-section {
+    padding: 60px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+}
+
+.visuals-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.model-block, .diagram-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.model-image, .diagram-image {
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.model-image:hover, .diagram-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.model-text, .diagram-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.model-text h3, .diagram-text h3 {
+    color: #ff7043;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+/* Video Box */
+.video-box {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.video-box h3 {
+    font-size: 1.8rem;
+    color: #ff7043;
+    margin-bottom: 15px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Conclusion Section */
+.conclusion-section {
+    padding: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.github-link {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.github-link a.cta-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff7043;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.github-link a.cta-btn:hover {
+    background-color: #ff8844;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .model-block, .diagram-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .model-image, .diagram-image {
+        width: 100%;
+    }
+
+    .intro-content, .ethnography-process, .design-idea {
+        text-align: center;
+    }
+}
+
+/* Data Cards Styling */
+.data-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px; /* Space between each card */
+    flex-wrap: wrap; /* Enable wrapping to maintain responsiveness */
+    margin-top: 20px;
+}
+
+.data-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for the card */
+    flex-basis: calc(33% - 40px); /* Cards will occupy 33% of the width minus the gap */
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+.data-card h3 {
+    color: #ff7043;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.data-card p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.data-card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Media Query for Responsive Layout */
+@media (max-width: 1024px) {
+    .data-card {
+        flex-basis: calc(50% - 40px); /* Two cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .data-card {
+        flex-basis: 100%; /* Stack cards vertically on smaller screens */
+        margin-bottom: 20px; /* Add space between stacked cards */
+    }
+}

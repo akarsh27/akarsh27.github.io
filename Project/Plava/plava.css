@@ -1,0 +1,847 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #ff7043, #ffcc80);
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.cta-btn {
+    padding: 12px 30px;
+    background-color: white;
+    color: #ff7043;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #ff7043;
+    color: white;
+}
+
+/* Section Styling */
+section {
+    padding: 80px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Card Layout */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h4 {
+    color: #ff7043;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* User Population Section */
+.user-population-section {
+    padding: 60px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-population-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user-population-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Story Board Section */
+.story-board-section {
+    padding: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.story-board-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.story-board-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Storyboard Image Styling */
+.storyboard-image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.storyboard-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Prototype Section Styling */
+.prototype-design-section, .prototype-section {
+    padding: 80px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.prototype-design-section h2, .prototype-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.prototype-design-section p, .prototype-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Application Functions Breakdown */
+.app-functions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.function-card {
+    flex-basis: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.function-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.function-card h3 {
+    color: #ff7043;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.function-card p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Cognitive Walkthrough Section Styling */
+.cognitive-walkthrough-section {
+    padding: 80px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.cognitive-walkthrough-section h2, .cognitive-walkthrough-section h3 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cognitive-walkthrough-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Question Card Styling */
+.question-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.question-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    flex-basis: 48%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h4 {
+    color: #ff7043;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.question-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Future Iterations Section Styling */
+.future-iterations-section {
+    padding: 80px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.future-iterations-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.future-iterations-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Models Section */
+.models-section {
+    padding: 60px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+}
+
+.models-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.models-section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Model Grid Styling */
+.model-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    align-items: start;
+}
+
+.model-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.model-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.model-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.model-description h3 {
+    color: #ff7043;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.model-description p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+    .model-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Affinity Diagrams Section */
+.affinity-diagrams-section {
+    padding: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.affinity-diagrams-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.affinity-diagrams-section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Conclusion Section */
+.conclusion-section {
+    padding: 60px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.conclusion-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.conclusion-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.github-link {
+    margin-top: 30px;
+}
+
+.github-link a.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7043;
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.github-link a.cta-btn:hover {
+    background-color: #ff8a65;
+}
+
+/* Working Models Section */
+.working-models-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.working-models-section h2 {
+    font-size: 2.5rem;
+    color: #ff7043;
+    margin-bottom: 30px;
+}
+
+.working-models-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout for Models */
+.model-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+/* Styling for each model item */
+.model-item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.model-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.model-header {
+    margin-bottom: 15px;
+}
+
+.model-header h3 {
+    font-size: 1.6rem;
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+
+.model-header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Image Styling */
+.model-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.model-item img + img {
+    margin-top: 15px;
+}
+
+.model-image:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .model-item {
+        margin-bottom: 30px;
+    }
+
+    .model-header h3 {
+        font-size: 1.4rem;
+    }
+
+    .model-header p {
+        font-size: 1rem;
+    }
+}
+
+
+
+/* Prototype Section */
+.prototype-section {
+    padding: 60px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.prototype-section h2 {
+    color: #ff7043;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.prototype-section p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+/* Timeline Styling */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.timeline-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 900px; /* Larger size */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.timeline-content h3 {
+    color: #ff7043;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Arrow Styling */
+.timeline-arrow {
+    font-size: 2rem;
+    color: #ff7043;
+    margin-bottom: 20px;
+}
+
+/* Iteration Image Styling */
+.iteration-image {
+    width: 100%;
+    max-width: 800px; /* Larger size for the images */
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.iteration-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Media Query for Mobile View */
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 90%;
+    }
+
+    .iteration-image {
+        max-width: 100%; /* Full width for smaller screens */
+    }
+}
+
+
+/* update */
+/* Working Models Section */
+.working-models-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.working-models-section h2 {
+    font-size: 2.5rem;
+    color: #ff7043;
+    margin-bottom: 30px;
+}
+
+.working-models-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout for Models */
+.model-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: stretch; /* Ensures all cards are the same height */
+}
+
+/* Styling for each model item */
+.model-item {
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 300px; /* Flex-grow allows the cards to grow equally */
+    max-width: 400px; /* Ensures the cards do not stretch too wide */
+}
+
+.model-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+.model-header {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.model-header h3 {
+    font-size: 1.8rem;
+    color: #ff7043;
+    margin-bottom: 15px;
+}
+
+.model-header p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Image Styling */
+.model-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.model-image:hover {
+    transform: scale(1.05);
+}
+
+/* Footer text in the card */
+.model-footer {
+    font-size: 1rem;
+    color: #444;
+    text-align: left;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .model-grid {
+        flex-direction: column;
+    }
+
+    .model-item {
+        margin-bottom: 30px;
+    }
+
+    .model-header h3 {
+        font-size: 1.6rem;
+    }
+
+    .model-header p {
+        font-size: 1rem;
+    }
+}
+
+
+/* Working Models Section */
+.working-models-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.working-models-section h2 {
+    font-size: 2.5rem;
+    color: #ff7043;
+    margin-bottom: 30px;
+}
+
+.working-models-section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Grid Layout for Models */
+.model-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Styling for each model item */
+.model-item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-basis: 300px;
+    max-width: 350px;
+    text-align: left;
+}
+
+.model-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.model-header {
+    margin-bottom: 15px;
+}
+
+.model-header h3 {
+    font-size: 1.6rem;
+    color: #ff7043;
+    margin-bottom: 10px;
+}
+
+.model-header p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Image Styling */
+.model-image {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.model-image:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .model-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .model-item {
+        max-width: 100%;
+    }
+}
+
+
+/* Prototype Section - Horizontal Cards */
+#prototype {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.feature-section {
+    background-color: #f9f9f9; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 45%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05); 
+}
+
+.feature-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.feature-section h3 {
+    font-size: 1.8rem;
+    color: #ff7043;
+    margin-bottom: 15px;
+}
+
+.feature-section p, .feature-section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature-section strong {
+    color: #ff7043;
+}
+
+/* Make it responsive for smaller screens */
+@media (max-width: 768px) {
+    .feature-section {
+        max-width: 100%;
+    }
+}
+

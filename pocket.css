@@ -1,0 +1,187 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #333;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.8;
+    font-size: 1.1rem; /* Increase readability with larger font */
+    color: #000000; /* Set paragraphs to black */
+    margin-bottom: 20px; /* Add more spacing between paragraphs for better flow */
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, #ff7043, #ffcc80);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+/* Button Styling */
+.btn-hero {
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff7043;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none; /* This removes the underline */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-hero:hover {
+    background-color: #ff7043;
+    color: white;
+    text-decoration: none; /* Make sure there's no underline on hover as well */
+}
+
+
+/* Project Overview */
+.project-overview .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: #f9f9f9;
+}
+
+.overview-text {
+    flex: 1;
+    max-width: 50%;
+    text-align: left;
+}
+
+.overview-image img {
+    width: 600px;  
+    height: 400px;
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Detailed Description */
+.detailed-description {
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+.detailed-description p {
+    margin-bottom: 20px;
+    font-size: 1.1rem; /* Larger font for readability */
+    color: #000000; /* Set text to black */
+}
+
+/* Footer */
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+} */
+
+/* Key Features & Technologies Sections */
+.key-features, .technologies-section {
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+.feature-grid, .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.feature-item, .tech-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-item h3, .tech-card h3 {
+    margin-bottom: 15px;
+    color: #ff7d47; /* Softer orange for headings in these sections */
+    font-size: 1.2rem;
+}
+
+.feature-item p, .tech-card p {
+    color: #000000; /* Black for better readability */
+    font-size: 1.1rem; /* Increase readability */
+}
+
+.overview-image img {
+    width: 600px;  
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin-left: 20px; /* Optional margin to add space between text and image */
+    background-color: #f8f8f8; /* Light background color to enhance contrast */
+    padding: 10px; /* Padding inside the background to create space around the image */
+}
+
+/* Detailed Description */
+.detailed-description {
+    padding: 60px;
+    background-color: #ffffff;
+}
+
+.detailed-description p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.detailed-description h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #ff7d47;
+}
+
+.detailed-description ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.detailed-description ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.detailed-description a {
+    color: #ff7d47;
+    text-decoration: none;
+}
+
+.detailed-description a:hover {
+    text-decoration: underline;
+}
+

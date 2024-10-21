@@ -1,0 +1,179 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: #1f1f1f;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 500;
+}
+
+/* Side Navigation */
+.side-nav {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    padding: 50px;
+    font-weight: 500;
+    color: #444;
+}
+
+.side-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.side-nav ul li {
+    margin-bottom: 20px;
+}
+
+.side-nav ul li a {
+    color: #444;
+}
+
+.side-nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 40px;
+}
+
+.social-links a {
+    color: #444;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    color: #ff5722;
+}
+
+/* Project Grid */
+.projects-section {
+    flex: 1;
+    margin-left: 200px;
+    padding: 60px;
+    background-color: #f5f5f5;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Project Card */
+.project-card {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Overlay (on hover) */
+.project-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly darker background for better contrast */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.project-card:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3 {
+    font-size: 1.75rem; /* Larger font size */
+    color: #ff7043; /* Change the project name to a bold, striking color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.overlay p {
+    font-size: 1.1rem; /* Slightly increase description size */
+    color: #ffffff; /* White color for better readability */
+    max-width: 80%; /* Limit text width for better alignment */
+    line-height: 1.5; /* Improve line spacing */
+    text-align: center; /* Center align the text */
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    font-size: 1rem;
+}
+
+/* Footer (optional) */
+/* 
+footer {
+    text-align: left;
+    color: #ff5722;
+}
+*/

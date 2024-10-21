@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Case Study: Sports Medicine Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Athlete.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <h1>Athleticare - Connecting Athletes and Doctors</h1>
+        <p>A comprehensive platform to bridge the gap between athletes and healthcare professionals.</p>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <h2>Introduction</h2>
+        <p>We are building a system that connects athletes to doctors. Our solution implements Google O-Auth for data security, allowing athletes to enter injury details, find expert doctors, view their availability and ratings, and schedule appointments accordingly. Athletes can also rate doctors after their session based on multiple parameters.</p>
+        <p>The current state-of-art system, UHS online appointment scheduling, is not user-friendly and lacks essential features like viewing doctor information upfront. Our platform aims to improve user-friendliness and efficiency.</p>
+    </section>
+
+    <!-- Understanding Section -->
+    <section id="understanding" class="section">
+        <h2>Understanding</h2>
+        <p>We conducted contextual inquiries with three athletes at the University of Wisconsin, Madison. The goal was to better understand how athletes choose their doctors and what factors influence their appointment choices. Initially, we believed that doctor ratings and descriptions would be the key factors influencing their choices.</p>
+        <p>However, during our interviews, we discovered that the most important factor for athletes was immediate availability. If one doctor was available immediately, athletes were more likely to choose them over a higher-rated doctor. Rating turned out to be less important than we originally assumed.</p>
+        <p>Another significant issue we identified was that the current UHS online system does not provide any form of emergent service or prioritize different patient needs. This leads to all athletes waiting for the same amount of time, regardless of the urgency of their injuries.</p>
+    </section>
+
+    <!-- Storyboard Section -->
+    <section id="storyboard" class="section">
+        <h2>Storyboard</h2>
+        <div class="storyboard-container">
+            <img src="AthAssets/story.png" alt="Storyboard Image" class="storyboard-image">
+        </div>
+    </section>
+
+    <!-- Affinity Diagrams Section -->
+    <section id="affinity-diagrams" class="section">
+        <h2>Affinity Diagrams</h2>
+        <p>We categorized user research feedback into affinity diagrams, highlighting key pain points and opportunities for improvement. Click below to view each affinity diagram.</p>
+        
+        <div class="card-container">
+            <!-- Affinity Diagram 1 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Affinity%20%20Diagram/Alexis-Affinity_Diagram.pdf" target="_blank" class="card">
+                <h3>Affinity Diagram 1</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+
+            <!-- Affinity Diagram 2 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Affinity%20%20Diagram/Helena-Affinity_Diagram.pdf" target="_blank" class="card">
+                <h3>Affinity Diagram 2</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+
+            <!-- Affinity Diagram 3 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Affinity%20%20Diagram/Roshini-Affinity_Diagram.pdf" target="_blank" class="card">
+                <h3>Affinity Diagram 3</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- Work Models Section with Enhanced Cards -->
+    <section id="work-models" class="section">
+        <h2>Work Models</h2>
+        <p>We created work models to understand athlete-doctor interactions and workflow pain points. Click below to explore the models.</p>
+        
+        <div class="card-container">
+            <!-- Work Model 1 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Work%20Models/Alexis%20Work%20Model.pdf" target="_blank" class="card">
+                <h3>Work Model 1</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+
+            <!-- Work Model 2 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Work%20Models/Helena-Work%20Models.pdf" target="_blank" class="card">
+                <h3>Work Model 2</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+
+            <!-- Work Model 3 -->
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission%201/Work%20Models/Roshnie%20work%20model.pdf" target="_blank" class="card">
+                <h3>Work Model 3</h3>
+                <p>Click to explore the detailed diagram.</p>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Ideation Section -->
+    <section id="ideation" class="section">
+        <h2>Ideation</h2>
+        <p>Our main design idea is to build an appointment scheduling platform that is more straightforward and user-friendly than UHS. The main design feature is a prioritizing feature. Patients in urgent needs can indicate their needs and see the most recent appointments. Before CIs, we focused on doctors' ratings and descriptions so that athletes can choose doctors they want.
+        After CIs, we realized that prioritizing is the most important. Originally, we want to ask every patient to fill out a survey about their conditions:</p>
+        <ul>
+            <li>The pain they are experiencing</li>
+            <li>The type of injury</li>
+            <li>The date of their next game</li>
+        </ul>
+
+        <p>We want to prioritize accordingly. However, this design might have a privacy problem. We then decided to give them a checkbox to indicate whether or not they are in urgent need.</p>
+
+        <!-- Checkbox Image -->
+        <div class="image-container">
+            <img src="AthAssets/1.png" alt="Urgent Need Checkbox" class="image">
+        </div>
+
+        <p>In order to prevent possible abuses of this feature, we are going to remind the limitedness of medical resources and encourage them to leave them to the people in need if they can wait a bit.</p>
+        <div class="image-container">
+            <img src="AthAssets/2.png" alt="Alert-Urgent Need Checkbox" class="image">
+        </div>
+    </section>
+
+    <!-- Evaluation and Final Prototype Section -->
+    <section id="evaluation-final-prototype" class="section">
+        <h2>Evaluation & Final Prototype</h2>
+        
+        <!-- Lo-Fi Prototype Summary -->
+        <h3>Lo-Fi Prototypes</h3>
+        <p>In our initial lo-fi prototypes, we focused on implementing core functionalities like Google O-Auth for data security, where athletes could securely enter their injuries. The system then displayed a list of expert doctors in that domain along with their availability and ratings. Athletes were able to schedule appointments and rate doctors after their sessions based on various parameters. The interface was designed to be simple and focused on functionality, keeping athletes' needs for scheduling at the forefront.</p>
+        <div class="image-container">
+            <img src="AthAssets/prot1.jpg" alt="Low Fidelity Prototype 1" class="image">
+        </div>
+        
+        <div class="image-container">
+            <img src="AthAssets/prot.png" alt="Low fedility" class="image">
+        </div>
+
+        <!-- Evaluation -->
+        <h3>Evaluation</h3>
+        <p>Through contextual inquiries (CIs) and usability testing with athletes from the University of Wisconsin, we gathered valuable insights. Our initial assumption was that doctor ratings and descriptions would be the primary factors in choosing a doctor. However, the tests revealed that immediate availability was a much higher priority for athletes, especially those in urgent need.</p>
+
+        <p>Additionally, during testing, concerns were raised about the potential privacy issues related to asking athletes to disclose sensitive injury information upfront. To address these concerns, we introduced an option for athletes to indicate whether they were in urgent need of medical attention, allowing for prioritized appointments without sharing explicit details of their injuries.</p>
+
+        <p>We also noticed that the current UHS system lacked a feature to prioritize different patient needs. All athletes, regardless of their level of urgency, faced the same wait times. Our platform introduced a prioritization feature to address this issue, allowing athletes with urgent needs to see the most recent available appointments quickly. The system encouraged athletes to defer appointments if they could wait, leaving urgent slots available for those in immediate need.</p>
+        <p>After gathering feedback, we made critical changes to the user flow, ensuring that athletes could choose their preferred doctors based on both availability and ratings. We implemented an emergency prioritization checkbox that athletes could select, preventing possible misuse by reminding users of the importance of reserving immediate appointments for urgent cases. These iterations helped to improve both the privacy and efficiency of the platform.</p>
+
+        <!-- Final Prototype -->
+        <h3>Final Prototype</h3>
+        <p>Based on the evaluation, we developed the final high-fidelity prototype. The new design integrates the following major changes:</p>
+        <ul>
+            <li>Prioritization Feature: Athletes can indicate the urgency of their medical needs, and the system shows the most recent available appointments accordingly.</li>
+            <li>Secure Appointment Scheduling: Enhanced data security through Google O-Auth, ensuring athlete injury information is stored securely, with options to disclose only necessary information.</li>
+            <li>Improved User Flow: Athletes can choose doctors based on both availability and ratings, allowing for a more flexible and user-centric experience.</li>
+            <li>Privacy Measures: Athletes are given a checkbox option to indicate their urgent need without explicitly stating their injury details, ensuring privacy concerns are addressed.</li>
+        </ul>
+        <p>The final prototype reflects these refinements, creating a more intuitive, secure, and user-friendly platform for athletes to connect with healthcare providers efficiently.</p>
+
+        <p>Below is the link to the fully interactive high-fidelity prototype, where you can explore the entire user journey:</p>
+
+        <!-- Button linking to interactive high-fidelity prototype -->
+        <div class="button-container">
+            <a href="https://www.figma.com/proto/o5BToBh93USZOQqfrbJ9E4/Akarsh-Athletic-Care?type=design&node-id=1-942&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A942" target="_blank"
+             class="cta-btn">View Final Prototype</a>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section id="conclusion" class="section">
+        <h2>Conclusion</h2>
+        <p>In conclusion, Athleticare serves as an innovative platform designed to connect athletes with healthcare professionals more effectively. Through a user-centered design process, we addressed key pain points, such as appointment prioritization, privacy concerns, and secure data handling, to create a seamless scheduling experience for athletes. Our final prototype reflects the refined functionalities based on thorough user research and feedback.</p>
+        <p>For more in-depth details, including our research, design iterations, and evaluation, please visit the GitHub repository or download the project documentation below:</p>
+
+        <!-- GitHub Link -->
+        <div class="button-container">
+            <a href="https://github.com/akarsh27/HCI-Project-1/tree/main/HCI-Project%201" class="cta-btn" target="_blank">View on GitHub</a>
+        </div>
+
+        <!-- PDF Documentation Link -->
+        <!-- <div class="button-container">
+            <a href="https://github.com/akarsh27/HCI-Project-1/blob/main/HCI-Project%201/Submission3/CS570-Processbook-Project1.pdf" class="cta-btn" target="_blank">PDF Documentation</a>
+        </div> -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Athleticare UX Case Study | Designed by Akarsh</p>
+    </footer>
+
+</body>
+</html>

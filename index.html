@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Akarsh Ache - Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">Sai Akarsh Ache</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Fullscreen Hero Section -->
+    <section id="hero" class="hero full-screen">
+        <div class="hero-content" data-aos="fade-in">
+            <h1 class="main-heading">Design. Code. Create.</h1>
+            <p class="sub-heading">Merging Design, AI, and Code to Build Meaningful, Impactful Solutions.</p>
+            <a href="#about" class="btn-hero">Explore My Work</a>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="spacious-section" data-aos="fade-up">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>I am passionate about solving complex problems where I can create impactful solutions that make a real difference in people's lives. 
+                I thrive on interacting with users, understanding their needs, and designing solutions that are both empathetic and innovative. With experience 
+                in the full product development lifecycle, I aim to build products that are not only usable but also equitable, enjoyable, and transformative.</p>
+                
+                <p>I love working at the intersection of design, technology, and human interaction, especially in areas like robotics and AI. My goal is to 
+                create products that bridge the gap between humans and technology, enhancing how we engage with the world around us.</p>
+                
+                <p>Let’s collaborate and create meaningful, human-centered solutions that drive positive change.</p>
+        </div>
+        <div class="about-image">
+            <img src="assets/profile1.JPG" alt="Sai Akarsh Ache" class="rounded-image">
+        </div>
+    </section>
+
+    <!-- Featured Work Section -->
+    <section id="featured" class="spacious-section">
+        <h2>Featured</h2>
+        <button class="scroll-button scroll-right" onclick="scrollRight()">
+            <i class="custom-arrow">→</i> <!-- Custom arrow design -->
+        </button>
+        <div class="featured-grid">
+            <!-- Floating Card 1 -->
+            <!-- <div class="featured-item">
+                <img src="https://via.placeholder.com/300x300" alt="Pocket Notes">
+                <div class="featured-text">
+                    <h3>Pocket Notes</h3>
+                    <p>A modern, intuitive note-taking app focused on simplicity and design.</p>
+                    <a href="Pocket-Notes.html" class="btn-featured">Explore</a>
+                </div>
+            </div> -->
+
+            <div class="featured-item">
+                <img src="assets/uw4.png" alt="People and Robots Lab">
+                <div class="featured-text">
+                    <h3>People and Robots Laboratory</h3>
+                    <p>As part of my research at the University of Wisconsin-Madison, I worked on developing a taxonomy for personalizing social interactions for care robots. This research focused on enhancing the adaptability of robots to better meet the individual needs of patients, improving human-robot interaction in caregiving environments.</p>
+                    <a href="https://peopleandrobots.wisc.edu/" class="btn-featured" target="_blank">Explore</a>
+                </div>
+            </div>
+
+            <!-- Add more floating cards as needed -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="spacious-section">
+        <div class="projects-content">
+            <div class="projects-text">
+                <h2>Projects</h2>
+                <p>I enjoy working on projects that bring together
+                   design and development to solve real problems. 
+                   From enhancing user experience to building 
+                   impactful solutions, my work is focused on 
+                   creating products that make a difference. 
+                   Explore my projects to see how I turn ideas 
+                   into reality through thoughtful design and coding</p>
+                <a href="projects.html" class="btn-project">Explore</a>
+            </div>
+            <div class="projects-image">
+                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Projects Preview">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="spacious-section">
+        <h2>Get in Touch</h2>
+        <p>I’d love to hear from you! Whether you want to collaborate, discuss a project, or just connect, feel free to reach out. I’m always open to new opportunities and ideas.</p>
+        <a href="contact.html" class="btn-contact">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Sai Akarsh Ache - All Rights Reserved</p>
+    </footer>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
