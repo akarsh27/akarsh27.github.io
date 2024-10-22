@@ -31,7 +31,7 @@ p {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #ff7043, #ffcc80);
+    background: linear-gradient(135deg, #ff7043, #afcff7);
     color: white;
     padding: 120px 20px;
     text-align: center;
@@ -159,4 +159,86 @@ ul li {
 
 .footer-section p{
     color: #f9f9f9;
+}
+
+
+/* mobile updates */
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 20px; /* Reduce padding for mobile */
+    }
+
+    .hero-section h1 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .hero-section p {
+        font-size: 1.2rem; /* Adjust text size */
+    }
+
+    .cta-btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 1rem; /* Adjust button text size */
+    }
+}
+@media (max-width: 768px) {
+    .project-overview {
+        flex-direction: column; /* Stack elements vertically */
+        padding: 40px 20px; /* Adjust padding */
+        text-align: center; /* Center text for mobile */
+    }
+
+    .overview-text {
+        width: 100%; /* Ensure full width for the text */
+        margin-bottom: 20px; /* Add margin to separate elements */
+    }
+
+    .overview-text h2 {
+        font-size: 1.8rem; /* Adjust font size */
+    }
+
+    .overview-text p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+}
+@media (max-width: 768px) {
+    .features-section, .technologies-section {
+        padding: 40px 20px; /* Adjust padding */
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr; /* Stack technology cards vertically */
+        gap: 20px; /* Ensure space between cards */
+    }
+
+    .tech-card {
+        padding: 15px; /* Adjust padding within the cards */
+    }
+
+    .tech-card h3 {
+        font-size: 1.2rem; /* Adjust heading size */
+    }
+
+    .tech-card p {
+        font-size: 1rem; /* Adjust text size */
+    }
+}
+@media (max-width: 768px) {
+    .video-section {
+        padding: 40px 20px; /* Adjust padding */
+    }
+
+    iframe {
+        height: 300px; /* Adjust video height for mobile */
+    }
+}
+@media (max-width: 768px) {
+    .footer-section {
+        padding: 20px 10px; /* Reduce padding */
+    }
+
+    .footer-section p {
+        font-size: 0.9rem; /* Adjust footer text size */
+    }
 }
