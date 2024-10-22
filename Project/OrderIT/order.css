@@ -268,3 +268,207 @@ footer p {
         margin-bottom: 20px; /* Add space between stacked cards */
     }
 }
+
+
+/* Mobile optimization */
+
+/* hero  */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 20px; /* Reduce padding */
+    }
+
+    .hero-section h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .hero-section p {
+        font-size: 1.2rem; /* Adjust paragraph size */
+    }
+
+    .cta-btn {
+        padding: 10px 20px; /* Adjust button padding */
+        font-size: 1rem; /* Adjust button font size */
+    }
+}
+
+/* text section for mobile */
+@media (max-width: 768px) {
+    section {
+        padding: 20px; /* Reduce padding for mobile */
+    }
+
+    h2 {
+        font-size: 2rem; /* Adjust section heading size */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+}
+
+/* visuals and diagrams fro mobile*/
+@media (max-width: 768px) {
+    .model-block, .diagram-block {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+    }
+
+    .model-image, .diagram-image {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .model-text, .diagram-text {
+        text-align: center; /* Center-align the text for mobile */
+        padding: 10px; /* Reduce padding */
+    }
+}
+
+/* data cards for mobile*/
+@media (max-width: 768px) {
+    .data-card {
+        flex-basis: 100%; /* Make each card take up full width */
+        margin-bottom: 20px; /* Add space between cards */
+    }
+
+    .data-card h3 {
+        font-size: 1.3rem; /* Adjust heading size */
+    }
+
+    .data-card p {
+        font-size: 1rem; /* Adjust text size for readability */
+    }
+}
+/* 
+font for mobile */
+@media (max-width: 768px) {
+    footer {
+        padding: 20px 10px; /* Adjust padding */
+    }
+
+    footer p {
+        font-size: 0.9rem; /* Adjust font size */
+    }
+}
+
+/* Ideation */
+@media (max-width: 768px) {
+    .ideation-section {
+        padding: 20px; /* Reduce padding for mobile */
+        text-align: center; /* Center-align for better balance */
+    }
+
+    .ideation-section h2 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .ideation-section p {
+        font-size: 1rem; /* Adjust paragraph size for readability */
+        text-align: left; /* Ensure text alignment is user-friendly */
+    }
+
+    .ideation-section ul {
+        padding-left: 20px; /* Adjust bullet point indentation */
+    }
+}
+
+/* prototyping */
+@media (max-width: 768px) {
+    .prototyping-section {
+        padding: 20px; /* Reduce padding */
+        text-align: center; /* Center-align text */
+    }
+
+    .prototyping-section h2 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .prototyping-section p {
+        font-size: 1rem; /* Adjust paragraph size */
+        text-align: left; /* Ensure readability for text-heavy sections */
+    }
+
+    .prototype-image img {
+        width: 100%; /* Make prototype images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* conclusion */
+@media (max-width: 768px) {
+    .conclusion-section {
+        padding: 20px; /* Reduce padding */
+        text-align: center; /* Center-align text */
+    }
+
+    .conclusion-section h2 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .conclusion-section p {
+        font-size: 1rem; /* Adjust text size for readability */
+        text-align: left; /* Keep text aligned for easier reading */
+    }
+}
+
+/* consistent across sections */
+@media (max-width: 768px) {
+    .ideation-section, .prototyping-section, .conclusion-section {
+        padding: 20px; /* Consistent padding */
+        text-align: center; /* Center-align text in each section */
+    }
+
+    .ideation-section h2, .prototyping-section h2, .conclusion-section h2 {
+        font-size: 2rem; /* Uniform heading size */
+    }
+
+    .ideation-section p, .prototyping-section p, .conclusion-section p {
+        font-size: 1rem; /* Uniform paragraph size */
+        text-align: left; /* Consistent text alignment for readability */
+    }
+
+    /* Make sure images are responsive */
+    .prototype-image img, .ideation-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    /* General container style for full-width sections */
+    .section-container {
+        width: 100%; /* Full-width on mobile */
+        padding: 20px; /* Consistent padding for all sections */
+        margin: 0 auto; /* Center the section */
+        box-sizing: border-box; /* Ensure padding is inside the container */
+    }
+
+    /* For headings in each section */
+    h2 {
+        font-size: 2rem; /* Ensure headings are readable */
+        text-align: center; /* Center-align the headings */
+        margin-bottom: 20px; /* Add some space below headings */
+    }
+
+    /* For paragraphs */
+    p {
+        font-size: 1rem; /* Adjust paragraph size for readability */
+        line-height: 1.6; /* Better line spacing */
+        text-align: justify; /* Align text to justify for neatness */
+    }
+}
+
+@media (max-width: 768px) {
+    .ideation-section {
+        width: 100%; /* Make sure it occupies full width */
+        padding: 20px; /* Consistent padding */
+        margin: 0 auto;
+    }
+
+    .ethnography-section {
+        width: 100%; /* Ensure full width */
+        padding: 20px;
+        margin: 0 auto;
+    }
+}
