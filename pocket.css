@@ -185,3 +185,82 @@ footer p {
     text-decoration: underline;
 }
 
+/* mobile update */
+/* Update the Project Overview Section for Mobile */
+@media (max-width: 768px) {
+    .project-overview .container {
+        flex-direction: column; /* Stack the text and image vertically */
+        padding: 20px; /* Reduce padding for mobile */
+    }
+
+    .overview-text {
+        max-width: 100%; 
+        margin-bottom: 20px; 
+        text-align: center; 
+    }
+
+    .overview-image img {
+        width: 100%; 
+        height: auto; 
+        margin: 0 auto; 
+    }
+}
+
+/* Detailed Description for Mobile */
+@media (max-width: 768px) {
+    .detailed-description {
+        padding: 20px; /* Reduce padding for mobile */
+        text-align: justify; /* Maintain good readability */
+    }
+
+    .detailed-description h3 {
+        font-size: 1.3rem; /* Adjust font size for smaller screens */
+        text-align: center; /* Center the headings */
+    }
+
+    .detailed-description p {
+        font-size: 1rem; /* Adjust paragraph font size */
+        text-align: left; /* Align text to the left for better readability */
+    }
+}
+
+/* Technologies and Key Features */
+@media (max-width: 768px) {
+    .tech-grid, .feature-grid {
+        grid-template-columns: 1fr; /* Make each item take up the full width */
+        gap: 20px; /* Reduce the gap between items */
+    }
+
+    .tech-card, .feature-item {
+        width: 100%; /* Make each card take up the full width */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .tech-card h3, .feature-item h3 {
+        font-size: 1.2rem; /* Adjust heading font size */
+    }
+
+    .tech-card p, .feature-item p {
+        font-size: 1rem; /* Adjust paragraph font size */
+    }
+}
+
+/* Hero section */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 20px; /* Reduce padding for mobile */
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem; /* Reduce heading size */
+    }
+
+    .hero-section p {
+        font-size: 1.2rem; /* Adjust paragraph size */
+    }
+
+    .btn-hero {
+        padding: 10px 20px; /* Reduce button padding */
+        font-size: 1rem; /* Adjust button text size */
+    }
+}
