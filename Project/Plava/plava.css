@@ -845,3 +845,89 @@ footer {
     }
 }
 
+
+/* Hero Section - Mobile View */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .cta-btn {
+        padding: 8px 20px;
+    }
+}
+
+/* General Section Adjustments */
+@media (max-width: 768px) {
+    section {
+        padding: 40px 15px;
+    }
+
+    .intro-section p, 
+    .abstract-section p,
+    .research-method-section p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Card Layout Adjustments */
+    .card-container {
+        grid-template-columns: 1fr; /* Stack the cards vertically */
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h4 {
+        font-size: 1.2rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    /* Prototype and Storyboard Sections */
+    .storyboard-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .app-functions {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .function-card {
+        flex-basis: 100%;
+    }
+}
+
+/* Prototype & Design Sections */
+@media (max-width: 768px) {
+    .prototype-design-section p,
+    .cognitive-walkthrough-section p {
+        font-size: 1rem;
+        text-align: justify;
+    }
+}
+
+/* Timeline and Models Section */
+@media (max-width: 768px) {
+    .timeline-item {
+        width: 95%;
+    }
+
+    .iteration-image {
+        max-width: 100%;
+    }
+
+    .model-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
