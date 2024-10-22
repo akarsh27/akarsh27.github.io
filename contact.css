@@ -194,3 +194,67 @@ footer p a:hover {
     }
 }
 
+/* mobile compartibility update */
+
+/* NavBar */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px; /* Reduce gap between items */
+    }
+
+    nav ul li {
+        padding: 5px 0;
+    }
+
+    nav {
+        padding: 10px 15px; /* Adjust padding for mobile */
+    }
+
+    nav ul li a {
+        font-size: 0.9rem; /* Slightly reduce font size */
+    }
+}
+
+
+/* icons adjustment */
+@media (max-width: 768px) {
+    /* Contact Section */
+    .contact-section {
+        padding: 50px 20px; /* Reduce padding */
+        margin: 50px auto; /* Adjust the margin for mobile */
+    }
+
+    .contact-icons {
+        flex-direction: column; /* Stack icons vertically */
+        gap: 40px; /* Reduce gap between icons */
+    }
+
+    .contact-icon {
+        margin-bottom: 20px;
+    }
+
+    /* Icon Text Adjustment */
+    .contact-icon p {
+        font-size: 1rem; /* Slightly reduce text size */
+    }
+
+    .icon-background {
+        padding: 20px; /* Reduce padding inside the icon */
+    }
+
+    .contact-icon i {
+        font-size: 2.5rem; /* Reduce icon size */
+    }
+}
+
+/* footer for mobile */
+@media (max-width: 768px) {
+    footer {
+        padding: 10px 0; /* Decrease padding */
+    }
+
+    footer p {
+        font-size: 0.8rem; /* Reduce footer text size */
+    }
+}

@@ -177,3 +177,97 @@ footer {
     color: #ff5722;
 }
 */
+
+/* mobile optimization */
+
+/* project grid */
+@media (max-width: 768px) {
+    /* Adjust the project grid for mobile view */
+    .projects-section {
+        margin-left: 0; 
+        padding: 20px; 
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+
+    .project-card {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto; 
+    }
+
+    .overlay h3 {
+        font-size: 1.5rem; 
+    }
+
+    .overlay p {
+        font-size: 1rem; 
+    }
+}
+
+/* side navigation */
+
+@media (max-width: 768px) {
+    .side-nav {
+        position: relative; /* Ensure it's relative to the main container */
+        min-height: 100vh; /* Make sure it covers the full viewport height */
+        padding-bottom: 20px; /* Add some padding at the bottom */
+    }
+
+    .side-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; /* Ensure there is enough space between items */
+    }
+
+    .social-links {
+        margin-top: 20px;
+        padding-bottom: 20px; /* Add bottom padding to ensure visibility */
+    }
+}
+
+@media (max-width: 768px) {
+    .side-nav ul {
+        gap: 15px; /* Ensure there's enough space between each link */
+    }
+}
+
+
+/* typography */
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 1.2rem; /* Adjust heading sizes */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust paragraph text size */
+    }
+
+    .overlay h3 {
+        font-size: 1.3rem; /* Adjust overlay heading size */
+    }
+
+    .overlay p {
+        font-size: 0.9rem; /* Adjust overlay description size */
+    }
+}
+
+/* Image and Button Adjustments */
+@media (max-width: 768px) {
+    .project-card img {
+        width: 100%; /* Ensure images fill the width of the card */
+        height: auto; /* Adjust image height */
+    }
+
+    .project-card:hover {
+        transform: none; /* Disable hover scaling for mobile to prevent layout shifting */
+    }
+}

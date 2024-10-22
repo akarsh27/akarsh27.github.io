@@ -489,6 +489,122 @@ footer p {
     }
 }
 
-/* update3 */
+
+
+/* mobile compartibility update */
+
+/* NavBar */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    nav {
+        padding: 10px 20px;
+    }
+
+    .nav ul li {
+        padding: 10px 0;
+    }
+}
+
+/* Hero Section */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 3rem; /* Reduce heading size */
+    }
+
+    .hero-content p {
+        font-size: 1.2rem; /* Smaller sub-heading */
+    }
+
+    .btn-hero {
+        padding: 10px 25px; /* Smaller button padding */
+        font-size: 1rem; /* Adjust button font size */
+    }
+}
+
+
+/* Featured */
+@media (max-width: 768px) {
+    /* Adjust Featured Section */
+    .featured-grid {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .featured-item {
+        flex-direction: column;
+        width: 100%; /* Make it full width for mobile */
+        max-width: 90%; /* Add some margin on the sides */
+        margin-bottom: 30px; /* Add space between featured items */
+    }
+
+    .featured-item img {
+        width: 80%;
+        margin: 0 auto; /* Center the image */
+    }
+
+    .featured-text {
+        margin-left: 0;
+        text-align: center; /* Center the text */
+        padding: 15px;
+    }
+
+    .scroll-button {
+        display: none; /* Hide scroll button on mobile */
+    }
+}
+
+
+/* Project */
+@media (max-width: 768px) {
+    /* Adjust padding for Projects section */
+    .projects-content {
+        padding: 30px; /* Adds more padding on smaller screens */
+        text-align: center; /* Centers the text and image */
+    }
+
+    .projects-text {
+        padding: 0 15px; /* Adds left and right padding to the text */
+    }
+
+    .projects-image img {
+        width: 80%; /* Ensures the image doesn't take full width on small screens */
+        margin: 0 auto; /* Centers the image */
+    }
+}
+
+
+/* About */
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        max-width: 100%;
+    }
+
+    .about-image img {
+        margin-top: 20px;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/* Footer */
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 20px; /* Add more padding on mobile */
+        font-size: 0.9rem; /* Slightly reduce the font size */
+        text-align: center;
+    }
+}
 
 
